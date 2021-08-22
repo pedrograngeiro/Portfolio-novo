@@ -592,6 +592,11 @@ header{
     color: rgb(21, 24, 204);
 }
 
+.python__icon{
+    font-size: var(--h1-font-size);
+    color: rgb(48, 91, 233);
+}
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
     display: flex;
