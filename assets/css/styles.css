@@ -587,6 +587,11 @@ header{
     color: rgb(219, 193, 48);
 }
 
+.c__icon{
+    font-size: var(--h1-font-size);
+    color: rgb(21, 24, 204);
+}
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
     display: flex;
