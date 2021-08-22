@@ -472,7 +472,7 @@ header{
     color: var(--first-color);
 }
 
-.skills_icon{
+.skills__icon{
     margin-right: var(--mb-0-75);
 }
 
@@ -570,6 +570,21 @@ header{
 .skills__open .skills__arrow{
     transform: rotate(-180deg);
 
+}
+
+.html__icon{
+    font-size: var(--h1-font-size);
+    color: rgb(219, 131, 48);
+}
+
+.css__icon{
+    font-size: var(--h1-font-size);
+    color: rgb(48, 179, 219);
+}
+
+.js__icon{
+    font-size: var(--h1-font-size);
+    color: rgb(219, 193, 48);
 }
 
 /*==================== QUALIFICATION ====================*/
