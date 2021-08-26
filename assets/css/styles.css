@@ -597,6 +597,20 @@ header{
     color: rgb(48, 91, 233);
 }
 
+.git__icon{
+    font-size: var(--h1-font-size);
+    color: rgb(233, 100, 48);
+}
+
+.github__icon{
+    font-size: var(--h1-font-size);
+    color: rgb(53, 53, 53);
+}
+
+.photoshop__icon{
+    font-size: var(--h1-font-size);
+    color: rgb(53, 27, 148);
+}
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
     display: flex;
@@ -678,7 +692,7 @@ header{
 .services__content{
     position: relative;
     background-color: var(--container-color);
-    padding: 3.5rem .5rem 1.25rem 1.5rem;
+    padding: 1rem .5rem 1.25rem 1rem;
     border-radius: .25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
     transition: .3s;
@@ -1240,7 +1254,7 @@ header{
         font-size: 2rem;
     }
     .services__content{
-        padding: 6rem 0 2rem 2.5rem;
+        padding: 1rem 0 2rem 1rem;
     }
     .services__modal-content{
         width: 450px;
@@ -1309,7 +1323,7 @@ header{
     }
 
     .services__container{
-        grid-template-columns: repeat(3, 238px);
+        grid-template-columns: repeat(3, 300px);
     }
 
     .portfolio__content{
