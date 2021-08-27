@@ -874,7 +874,8 @@ header{
     justify-self: center;
 }
 
-/*==================== TESTIMONIAL ====================*/
+
+/*==================== TESTIMONIAL ====================
 .testimonial__data,
 .testimonial__header{
     display: flex;
@@ -914,6 +915,7 @@ header{
     bottom: 0;
 }
 
+*/
 /*==================== CONTACT ME ====================*/
 .contact__container{
     row-gap: 3rem;
