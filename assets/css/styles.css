@@ -1219,7 +1219,8 @@ header{
     }
 
     .home__title{
-        font-size: var(--big-font-size);
+        line-height: 1.1;
+        margin-bottom: 16px;
     }
 
     .home__social{
