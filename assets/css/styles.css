@@ -318,8 +318,6 @@ header{
 
 .home__title{
     font-size: var(--big-font-size);
-    line-height: 1.1;
-    margin-bottom: 16px;
 }
 
 .home__subtitle{
@@ -726,66 +724,6 @@ header{
     transform: translateX(.25rem);
 }
 
-.services__modal{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1rem;
-    z-index: var(--z-fixed);
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-}
-
-.services__modal-content{
-    position: relative;
-    background-color: var(--container-color);
-    padding: 1.5rem;
-    border-radius: .5rem;
-}
-
-.services__modal-services{
-    row-gap: 1rem;
-}
-
-.services__modal-service{
-    display: flex;
-}
-
-.services__modal-title{
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
-    margin-bottom: var(--mb-1-5);
-}
-
-.services__modal-close{
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 1.5rem;
-    color: var(--first-color);
-    cursor: pointer;
-}
-
-.services__modal-icon{
-    color: var(--first-color);
-    margin-right: var(--mb-0-25);
-
-}
-
-/* Active Modal */
-.active-modal{
-    opacity: 1;
-    visibility: visible;
-}
-
-
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
     overflow: initial;
@@ -877,47 +815,6 @@ header{
 }
 
 
-/*==================== TESTIMONIAL ====================
-.testimonial__data,
-.testimonial__header{
-    display: flex;
-}
-
-.testimonial__data{
-    justify-content: space-between;
-    margin-bottom: var(--mb-1);
-}
-
-.testimonial__img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: var(--mb-0-75);
-}
-
-.testimonial__name{
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
-}
-
-.testimonial__client{
-    font-size: var(--small-font-size);
-    color: var(--text-color-light);
-}
-
-.testimonial__description{
-    margin-bottom: var(--mb-2-5);
-}
-
-.testimonial__icon-star{
-    color: var(--first-color);
-}
-
-.swiper-container .swiper-pagination-testimonial{
-    bottom: 0;
-}
-
-*/
 /*==================== CONTACT ME ====================*/
 .contact__container{
     row-gap: 3rem;
@@ -1320,8 +1217,6 @@ header{
 
     .home__title{
         font-size: var(--big-font-size);
-        line-height: 1.1;
-        margin-bottom: 16px;
     }
 
     .home__social{
