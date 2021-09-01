@@ -709,6 +709,12 @@ header{
     margin-bottom: var(--mb-1);
 }
 
+.services__content__icon{
+    display: flex;
+    justify-content: space-between;
+    padding-right: .5rem;
+}
+
 .services__title{
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
@@ -998,9 +1004,6 @@ header{
 
     .services__content{
         padding-right: 3.5rem;
-    }
-    .services__modal{
-        padding: 0 .5rem;
     }
 
     .project__img{
